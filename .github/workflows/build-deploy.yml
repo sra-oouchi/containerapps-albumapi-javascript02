@@ -7,7 +7,8 @@ env:
   CONTAINER_REGISTRY: oouchi000015t43ww5auu7ym.azurecr.io
   # Add envs
   RESOURCE_GROUP_NAME: Handson01-CICD # 準備タスクで作成されたリソースグループ名をここに記載
-  CONTAINERAPP_NAME: APP_containerapps-albumapi-javascript02  # 準備タスクで作成された API Container App 名をここに記載
+  CONTAINERAPP_NAME: APP_containerapps-albumapi-javascript02 # 準備タスクで作成された API Container App 名をここに記載
+  
 jobs:
   build:
     runs-on: ubuntu-22.04
